@@ -1,4 +1,6 @@
-// Datatypes
+    //Primitive Datatypes
+
+
 // Number 
 let age = 18
 console.log(typeof age);
@@ -22,8 +24,10 @@ console.log(typeof state);
 console.log(typeof null);
 
 // BigInt
-
 // Symbol
 
 
-// Object
+    // Non-primitive or reference Datatypes
+// Array
+// Objects
+// functions
