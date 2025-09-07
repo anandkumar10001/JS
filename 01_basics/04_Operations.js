@@ -16,7 +16,17 @@ let fullName = fName + lName
 // console.log(1 + 2 + "2");
 
 //
-console.log(true); //true
-console.log(+true);  //1
-console.log(+"");  //0
+// console.log(true);   //true
+// console.log(+true);  //1
+// console.log(+"");    //0
 
+//
+let counter = 100
+const b = counter++;
+console.log(counter);
+console.log(b);
+
+let secondCounter = 200
+const a = ++secondCounter;
+console.log(secondCounter);
+console.log(a);
