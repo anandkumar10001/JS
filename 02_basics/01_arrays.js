@@ -32,14 +32,28 @@ const oldArr = myArr.join()
 
     //slice and splice
 
-console.log("A", myArr);
+// console.log("A", myArr);
 
 const myn1 = myArr.slice(1, 3)      // slice include last value
-console.log(myn1);
-console.log("B",  myArr);
+// console.log(myn1);
+// console.log("B",  myArr);
 
 const myn2 = myArr.splice(1, 3) //splice manipulate the original arr and also inducle last value
-console.log("C", myArr);
-console.log(myn2);
+// console.log("C", myArr);
+// console.log(myn2);
 
+
+
+const marvelHeros = ["thor", "ironman", "spiderman"]
+const indianHeros = ["shaktiman", "Hanuman", "Balveer"]
+
+marvelHeros.push(indianHeros)
+// console.log(marvelHeros);
+// console.log(marvelHeros[3][1]);
+
+const allHeros = marvelHeros.concat(indianHeros)
+// console.log(allHeros);
+
+const newHeros = [...marvelHeros, ...indianHeros]
+console.log(newHeros);
 
